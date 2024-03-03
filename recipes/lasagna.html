@@ -3,36 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../pages/styles.css">
     <title>Lasagna Recipe</title>
     
 </head>
 <body>
     <div class="header"> <h1> Lasagna Recipe </h1> </div>
-    <a href="../pages/index.html"> Homepage </a>
-    <h2>  Recipe for a simple but delicious and of course, <strong><em>cheesy</em></strong> lasagna! </h2>
-    <!-- add picture of lasagna from folder-->
-    <img src="../images/cheeseylasagna.jpg" alt="a picture of a cheesy boi" height="500" width="400">
-    <!-- recipe description-->
-    <h3> Difficulty = Easy </h3>
-    <!-- list of ingredients-->
-    <h3>What do we need?</h3>
+    <a id="buttons" href="../pages/index.html"> <button class="homepage"> Homepage </button> </a> <!-- return home-->
+    <div class="header sub"><h2>  Recipe for a simple but delicious and of course, <strong><em>cheesy</em></strong> lasagna! </h2>
 
-    <h4><strong>Ingredients </strong></h4>
-    <ul>
-        <li>Lasagna sheets</li>
-        <li>Ricotta Cheese</li>
-        <li>Tomato Beef Ragu Sauce</li>
-        <li>Parmesan Cheese</li>
-        <li>Eggs</li>
-        <li>Mozarella Cheese</li>
-        <li>Cheddar Cheese</li>
-    </ul>
+        <!-- add picture of lasagna from folder-->
+        <div id="lasagnaimg"> <img src="../images/biglasagna.jpg" alt="a picture of a cheesy boi" height="auto" width="600"> </div>
+
+        <!-- recipe description-->
+        <h3 id="difficulty"> Difficulty = Easy </h3>
+        <!-- list of ingredients-->
+        <h3>Let's Start!</h3>
+    </div>
+
+
+    <div class="list header"> 
+        <h4><strong>Ingredients </strong></h4>
+    </div>
+        <ul class="list">
+            <li>Lasagna sheets</li>
+            <li>Ricotta Cheese</li>
+            <li>Tomato Beef Ragu Sauce</li>
+            <li>Parmesan Cheese</li>
+            <li>Eggs</li>
+            <li>Mozarella Cheese</li>
+            <li>Cheddar Cheese</li>
+        </ul>
+
 
     <!-- step by step-->
-    <h3> Let's begin!</h3>
-    <h4><strong>Steps</strong></h4>
-    <ol>
+    <div class="list header"> 
+        <h4><strong>Steps</strong></h4>
+    </div>
+    
+    <ol class="list">
         <li>Fry the mince beef with some onions and garlic</li>
         <li>Once browned, add in tomato sauce to create the Ragu</li>
         <li>Let simmer for 30 minutes for taste to infuse</li>
