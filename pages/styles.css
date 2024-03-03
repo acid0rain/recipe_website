@@ -1,0 +1,117 @@
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: purple;
+}
+
+
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(194, 23, 165);
+    text-align: center;
+    font-weight:800;
+    font-size: 24px; 
+    
+}
+
+.list {
+    padding-top:auto;
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+    text-align: left;
+    font-size: 18x;
+    padding-right: 20%;
+    outline: 2px solid aqua;
+}
+
+.header.sub {
+    color: black;
+    font-size: 18px;
+
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ingredients {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    display: flexbox;
+    
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border: 10px;
+    border-radius: 10px;
+}
+
+
+#lasagnaimg {
+    display: flex;
+    justify-content: center;
+}
+
+#difficulty {
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(226, 125, 43);
+}
+
+.lasagna,
+.katsucurry,
+.cottagepie,
+.homepage {  
+    padding: 4px 8px;
+    background-color: rgb(107, 236, 236);
+    outline: solid purple;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+h4 {
+    height: 5px;
+}
+/*
+#cottagepiepic {
+    background-color: rgb(201, 211, 64);
+}
+
+#katsucurrypic {
+    background-color: rgb(54, 175, 190);
+}
+
+/*
+.lasagnapic { 
+    max-width: 100px;
+    max-height: 20%;
+    border: 1px solid #ccc;
+    display: block;
+    margin: auto; /* centers block level horinzally
+
+}
+
+/*
+.lasagna {
+    justify-content: flex-start;
+}
+
+.katsucurry {
+    justify-content: center;
+
+}
+
+.cottagepie {
+    justify-content:flex-end
+}
